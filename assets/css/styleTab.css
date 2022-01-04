@@ -1,0 +1,45 @@
+.nav-item{
+
+}
+.nav-item button{
+    color: black;
+    width: 250px;
+}
+.nav-item:hover button{
+    color: #fff;
+    background-color: #0d6efd;
+}
+.nav-link{
+    color: white;
+
+}
+.btn-pill-plans{
+    border-radius: 20px !important;
+}
+.asd{
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width:  502px ;
+    padding: 0 ;
+}
+
+button#pill-mobile.active::before, button#pill-mobile:hover::before {
+    content: url(../img/icons/tab-equipos-blanco.png);
+    padding-right: 6px;
+    }
+
+button#pill-mobile::before {
+    content: url(../img/icons/tab-equipos-azul.png);
+    padding-right: 6px;
+    }
+
+button#pill-home.active::before, button#pill-home:hover::before {
+        content: url(../img/icons/tab-hogar-blanco.png);
+        padding-right: 6px;
+    }
+
+button#pill-home::before {
+        content: url(../img/icons/tab-hogar-azul.png);
+        padding-right: 6px;
+    }
+
