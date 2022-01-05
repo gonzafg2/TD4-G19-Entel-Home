@@ -19,8 +19,79 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Entel | Personas</title>
   </head>
+
+  <!-- Bloque Elemento Modificador -->
   <body>
-    <h1>Hola Mundo!</h1>
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="card-mobile">
+            <section class="card-mobile__header">
+              <div class="card-mobile__title-container">
+                <h3 class="card-mobile__title">
+                  Plan <strong>Individual</strong> <br />
+                  <span class="card-mobile__title-type">30 Gigas</span>
+                </h3>
+                <img
+                  src="https://www.entel.cl/planes/includes/includes-planes/new-card/public/img/png/sticky-5g.png?v=1.1"
+                  alt=""
+                  width="44"
+                  height="40"
+                />
+              </div>
+
+              <span class="badge card-mobile__badge">25% dcto.</span>
+
+              <p class="card-mobile__price">
+                $7.493
+                <span class="card-mobile__price-month">/mes</span>
+              </p>
+
+              <p class="card-mobile__regular-price">
+                Por 6 meses, luego $9.990/mes
+              </p>
+
+              <a href="#" class="btn card-mobile__btn" role="button"
+                >Lo quiero</a
+              >
+
+              <p class="card-mobile__promo-includes">Este plan incluye:</p>
+            </section>
+
+            <section class="card-mobile__promo-container">
+              <div class="card-mobile__promo-description">
+                <img
+                  width="16"
+                  height="16"
+                  src="https://www.entel.cl/planes/includes/includes-planes/new-card/public/img/svg/icono-llamada.svg?v=1.1"
+                  alt="phone"
+                  class="card-mobile__promo-icon card-mobile__promo-icon--phone"
+                />
+                <p class="card-mobile__promo-title">
+                  Habla hasta 1.000 minutos
+                </p>
+              </div>
+              
+              <div class="card-mobile__promo-description">
+                <img
+                  width="16"
+                  height="16"
+                  src="https://www.entel.cl/planes/includes/includes-planes/new-card/public/img/svg/icon-redes2.svg?v=1.1"
+                  alt="cellphone"
+                  class="card-mobile__promo-icon"
+                />
+                <p class="card-mobile__promo-title">
+                  Redes sociales y música libres
+                </p>
+              </div>
+            </section>
+
+            <a href="#" class="card-mobile__promo-link">Ver detalle completo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -30,7 +101,7 @@
       src="https://kit.fontawesome.com/f73e1a5c93.js"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/js/firebase.js"></script>
+    <script type="module" src="assets/js/firebase.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
