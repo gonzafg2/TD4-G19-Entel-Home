@@ -1,0 +1,26 @@
+.title-loquebuscas{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 33px;
+    margin-top: 50px;
+}
+.title-second{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:1023px) {.border-line{border-left: 1px solid #c4c4c4;border-bottom: none;}}
+@media only screen and (max-width:1022px) {.border-line2{border-bottom: 1px solid #c4c4c4;border-left: none;}}   
+
+.null{
+    border-left: none;
+}
+.null2{
+    border-bottom: none;
+}
