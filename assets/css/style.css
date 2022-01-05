@@ -84,6 +84,16 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+}
+.card-mobile__btn:hover {
+  background-color: #fff;
+  border-color: #002eff;
+  color: #002eff;
 }
 .card-mobile__promo-includes {
   margin-top: 16px;
