@@ -32,9 +32,6 @@
 }
 
 .card-delivery__body {
-}
-
-.card-delivery {
     background-color: var(--white-entel);
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -73,5 +70,8 @@
     .card-delivery__text {
         font-size: 18px;
         font-weight: 700;
+    }
+    .card-delivery {
+        max-width: 285px;
     }
     }
