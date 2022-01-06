@@ -14,8 +14,16 @@
     text-align: center;
     margin-top: 20px;
 }
+.text-tite-second{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #191919;
+    text-align: center;
+}
 
-@media only screen and (min-width:1023px) {.border-line{border-left: 1px solid #c4c4c4;border-bottom: none;}}
+@media only screen and (min-width:1022px) {.border-line{border-left: 1px solid #c4c4c4;border-bottom: none;}}
 @media only screen and (max-width:1022px) {.border-line2{border-bottom: 1px solid #c4c4c4;border-left: none;}}   
 
 .null{
