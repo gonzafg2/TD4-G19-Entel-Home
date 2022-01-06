@@ -114,6 +114,12 @@ a{
 
 }  
 
+.banner_btn:hover{
+    background: #ffffff;
+    color: #002eff;
+    border: 1px solid #002eff;
+}
+
 .btn_blue:hover{
     background: #ffffff;
     color: #002eff;
