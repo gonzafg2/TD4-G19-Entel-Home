@@ -52,5 +52,81 @@
 }
 /*end styles Feasibility banner dev-macosta*/
 
+.banner_only{
+    border: 1px solid;
+    background: #ECEFF1;
+    border-radius: 5px;
+
+}
+
+
+.banner{
+    height: 80px;
+    margin: 16px 0;
+    padding: 15px;
+    border-radius: 16px;
+    background-color: aqua;
+    border: 1px solid rgba(204,204,204,.5);   
+}
+.box_banner_two{
+    margin-top: 30px;
+    background-color: aqua;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+
+} 
+
+
+.banner__txt{
+    color: #212529;
+    font-family: Barlow, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.banner__img{
+    width: 40px;
+    height: 32px;
+    margin-left: 10px; 
+}
+
+
+.text_banner{
+    font-family:'Barlow','sans-serif';
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 16px;    
+}
+
+a{
+    max-width: 208px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 30px;
+}  
+
+.btn_blue {
+    display: block;
+    background: #002eff;
+    color: #fff;
+    font-family:'Barlow','sans-serif';
+    font-weight: 400;
+    padding: 5px 0;
+    font-size:  14px;
+    height: 35px;
+    width: 120% ;
+    margin: auto;
+    border-radius : 25px;      
+}  
+
+
+@media (min-width: 1200px) {
+
+
+    
+}
 
 
