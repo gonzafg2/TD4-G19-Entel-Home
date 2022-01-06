@@ -1,41 +1,63 @@
+
+
+.box-accesos-directos{
+    content: url(https://www.entel.cl/hn/public/img/iconos/png/sticky-5g.png?v=1.:);
+    position: absolute;
+    z-index: 2;
+    top: 31px;
+    right: 930px;
+    width: 40px;
+    height: 32px;
+}
+
+.box-accesos-directos-2{
+    content: url(https://www.entel.cl/hn/public/img/iconos/png/sticky-5g.png?v=1.:);
+    position: absolute;
+    z-index: 2;
+    top: 31px;
+    right: 360px;
+    width: 40px;
+    height: 32px;
+}
+
 .card{
+    
     border-radius: 20px;
-    border-color: rgb(19, 19, 151) ;
-    width: 13rem;
+    border: 1px solid #000072;
     height: 8rem;
-
-}
-
-
-.card-body{
-    margin: 1px;
-}
-
-.cards__info{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.card-text{
-    text-align: center;
+    width: 13rem;
+    flex-grow: 1;
     
 }
 
-.icon_card{
-    color: rgb(0, 123, 255);
+.card__light{
+    
+    border-radius: 20px;
+    border: 1px solid #d7d7e2;
+    height: 8rem;
+    width: 13rem;
+}
+
+.card-text{
+    font-size: 11px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    
 }
 
 .card-title{
     font-size: 20px;
     font-weight: 600;
-    text-align: center;
 }
 
-.card-text{
-  font-size: 11px;
-  font-weight: 500;
-  font-family: 'Barlow', sans-serif;
-
+.icon_card{
+    color:  #007bff;
 }
+
+
+@media (min-width: 1200px) { body } 
+
+
+
+
 
