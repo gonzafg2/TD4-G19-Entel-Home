@@ -1,56 +1,78 @@
 /*init styles Feasibility banner dev-macosta*/
-.container__box{
-    margin: 16px 0;
-    padding: 15px;
-    border-radius: 16px;
-    background-color: #fff;
-    border: 1px solid rgba(204,204,204,.5);   
+.container__box {
+  margin: 16px 0;
+  padding: 15px;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid rgba(204, 204, 204, 0.5);
 }
-.divleft__txt{
-    color: #212529;
-    font-family: Barlow, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-left: 20px;
-    text-align: center;
+.divleft__txt {
+  color: #212529;
+  font-family: Barlow, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 20px;
+  text-align: center;
 }
-.divleft__img{
-    width: 40px;
-    height: 32px;
-    margin-left: 10px; 
+.divleft__img {
+  width: 40px;
+  height: 32px;
+  margin-left: 10px;
 }
-@media only screen and (max-width: 600px){
-    .divleft__img{
-        margin: 0;
-    }
-    .divleft__txt{
-        margin: 0;
-    }
+@media only screen and (max-width: 600px) {
+  .divleft__img {
+    margin: 0;
+  }
+  .divleft__txt {
+    margin: 0;
+  }
 }
-.btnblue{
-    color: #ffffff;
-    max-width: 208px;
-    font-family: Barlow, sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    background: #002eff;
-    margin: 0 135px;
-    padding: 5px 0;
-    height: 35px;
-    border-radius: 20px; 
-    border: solid 1px #002eff;
-    width: 120%;
-    display: block;
-    margin: auto;  
+.btnblue {
+  color: #ffffff;
+  max-width: 208px;
+  font-family: Barlow, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  background: #002eff;
+  margin: 0 135px;
+  padding: 5px 0;
+  height: 35px;
+  border-radius: 20px;
+  border: solid 1px #002eff;
+  width: 120%;
+  display: block;
+  margin: auto;
 }
-.btnblue:hover{
-    background: #ffffff;
-    color: #002eff;
+.btnblue:hover {
+  background: #ffffff;
+  color: #002eff;
 }
-.btnplans{
-    text-align: right;
+.btnplans {
+  text-align: right;
 }
 /*end styles Feasibility banner dev-macosta*/
 
+/*mavila*/
+.footer-entel {
+  background: #020247;
+}
 
+.footer-link {
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
 
+}
+.title-footer {
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #2fcbf1;
+  width: 100%;
+  text-align: left;
+}
+.footer-link{
+    font-weight: 500;
+    font-size: 15px;
+}
