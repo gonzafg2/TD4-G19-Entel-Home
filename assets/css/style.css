@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0 ;
+}
+
+.equip-details{
+    background-color: #f2f2f2;
+}
+
+.product-img{
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
