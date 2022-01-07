@@ -52,84 +52,109 @@
 }
 /*end styles Feasibility banner dev-macosta*/
 
+.page_two{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #191919;
+
+}
 
 .banner_one{
-    border: 1px solid rgba(204,204,204,.5);
-    border-radius: 20px;
-    padding: 15px;;
-   
-
+border: 1px solid #179240;
+border-radius: 20px;
+background-color: antiquewhite;
+height: 75px;
+/* padding: 10px; */
 }
 
 .banner_two{
-    margin: 5px 15px;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    
-
-} 
-
-
-
-.banner__txt{
-    /* color: #212529; */
-    font-family: Barlow, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
+    border: 1px solid #b40c0c;
 }
 
-
-.text_banner{
-    font-family:'Barlow','sans-serif';
-    font-size: 16px;
-    margin: 0 auto;
-    margin-left: 16px;    
-}
-
-a{
-    max-width: 190px;
+.banner_btn-ancor{
+    background-color: blue;
+    color: white;
+    max-width: 208px;
     font-size: 16px;
     font-weight: 600;
     height: 40px;
-    border-radius: 30px;
-}  
+    border-radius : 23px;
 
-.banner_btn {
-    display: block;
-    background: #002eff;
-    color: #fff;
-    font-family:'Barlow','sans-serif';
-    font-weight: 400;
-    padding: 5px 0;
-    font-size:  14px;
-    height: 35px;
-    width: 120% ;
-    margin: auto;
-    border-radius : 25px;
-    transition: 900ms;
+}
 
-}  
+.text_banner{
+font-weight: 400;
+font-size: 14px;
+color: #191919;
+line-height: 1.1;
+text-align: center
+}
 
-.banner_btn:hover{
+
+
+
+
+
+.banner_btn-ancor:hover{
+
     background: #ffffff;
     color: #002eff;
     border: 1px solid #002eff;
+
 }
 
-.btn_blue:hover{
+/* .btn_blue:hover{
     background: #ffffff;
-    color: #002eff;
+    color: #002eff; */
+
+
+
+
+
+
+@media (max-width: 767px) {
     
-}
+    .pagina_dos{
+        display: block;
+        padding-top: 10px;
+
+    }
 
 
-@media (min-width: 1200px) {
- 
+    .banner_one{
+        margin: 3px;
+        padding: 3px;
+
+        height:145px
+    }
+
+
+    .banner_dos-img{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .text_banner{
+        align-items: center;
+    }
+
+
+    .banner_btn-ancor{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .banner_btn-ancor:hover{
+
+        background: #ffffff;
+        color: #002eff;
+        border: 1px solid #002eff;
     
+    }
+
+
 }
-
-
