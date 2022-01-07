@@ -1,24 +1,20 @@
 
 
+
+
+
+
 .box-accesos-directos{
     content: url(https://www.entel.cl/hn/public/img/iconos/png/sticky-5g.png?v=1.:);
     position: absolute;
     z-index: 2;
-    top: 31px;
-    right: 930px;
+    top: -15px;
+    right: 25px;
     width: 40px;
     height: 32px;
 }
 
-.box-accesos-directos-2{
-    content: url(https://www.entel.cl/hn/public/img/iconos/png/sticky-5g.png?v=1.:);
-    position: absolute;
-    z-index: 2;
-    top: 31px;
-    right: 360px;
-    width: 40px;
-    height: 32px;
-}
+
 
 .card{
     
@@ -55,9 +51,10 @@
 }
 
 
-@media (min-width: 1200px) { body } 
 
-
-
-
-
+@media (min-width: 768px) and (max-width: 1200px){
+    #recarga {
+    width: auto;
+    }
+    }
+    
