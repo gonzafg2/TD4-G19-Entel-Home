@@ -173,6 +173,7 @@ max-width: 250px;
 }
 .card-body{
     background-color: #F2F2F2;
+    border-radius: 0 0 10px 10px  ;
 }
 
 .img-container{
