@@ -96,5 +96,37 @@
 .navbar-light .navbar-nav .nav-link{
     color: var(--back-blue);
 }
+.dropdown-item{
+    color:var(--back-blue);
+    font-family: barlow, sans-serif;
+    font-weight: 500;
+    font-size: 18px; 
+     
+
+}
+.navbar-superior{
+    display: flex;    
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 2px;
+    margin-bottom: 0;
+    list-style: none;
+    /* font-size: 20px; */
+}
+
+.container-fluid{
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    
+}
+/*Logo entel se achica hasta los 764px*/
+@media (max-width: 764px) {
+    .logo-entel {
+        width: 38px ;
+        height: auto;
+    }
+  }
 
 /*End ccs styles by @kofrann*/

@@ -21,46 +21,238 @@
 </head>
 
 <body>
+ 
+  
 
-  <!--NavBAr @kofrann-->
-  <nav class="navbar navbar-expand-sm navbar-light bg-white  ">
-    <div class="container-fluid">
+  <!--NavBAr Superior @kofrann-->
+  <nav class=" navbar navbar-expand-sm navbar-light bg-white  ">
+    <div class="container">
+      <div class="row">
+        <a class="navbar-brand" href="https://www.entel.cl/">
+          <picture>
+            <img loading="lazy" src="https://www.entel.cl/public/includes/header/img/iconos/svg/logo-entel.svg?v=2.0"
+              alt="Logo Entel" class="logo-entel">
+          </picture>
+        </a>
+      </div>
+      <!--Dropdown logo entel-->
+      <div class="row dropdown">
+        <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown">
+          Cambiar a 
+          <a class="link-drop" href="http://">Emprendedores y Empresas</a>
+        </button>
+        <ul class=" dropdown-menu">
+          <li><a class="dropdown-item" href="#">Emprendedores y Empresas</a></li>
+          <li><a class="dropdown-item" href="#">Corporaciones</a></li>
+          <li><a class="dropdown-item" href="#">Sobre Entel</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <a href="http://">
+          <i class="fas fa-search"></i>
+        </a>       
+        
+      </div>
 
-      <a class="navbar-brand" href="https://www.entel.cl/">
-        <picture>
-          <img loading="lazy" src="https://www.entel.cl/public/includes/header/img/iconos/svg/logo-entel.svg?v=2.0"
-            alt="Logo Entel" class="logo-entel">
-        </picture>
-      </a>
-      <div class="d-flex flex-row align-self-end align-items-center >
+    </div>
+      <!--Fin primer ddropdpwn-->
+    <div class="container">
+      <div class="row " >
+        <div class="justify-content-end  w-100 align-items-center none-desk">
+          <div class="col pr-0 pl-4 ms-0 ">
+            <ul class="navbar-superior">
+              <li>
+                <i class="far fa-user-circle"></i>
+                <a href="http://">Mi Entel</a>
+              </li>
+              <li>
+                <i class="fas fa-file-invoice-dollar"></i>
+                <a href="http://">Pagar Cuenta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Menu HAmburguesa-->
         <button class=" navbar-toggler " type=" button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon d-sm-none "></span>
         <p class="d-block d-sm-none mb-0 ">Menu</p>
         </button>
+        
       </div>
       <div class="collapse navbar-collapse " id="collapsibleNavbar">
-        <!--Inicio DropDown-HeaDER-->
-        <ul class="navbar-nav  ">
-          <li class="nav-item  ">
-            <a class="nav-link " href="#">Móvil</a>
+        <!--Inicio DropDown-divider-->
+        <div class="dropdown">
+
+          <button type="button" class="btn btn-white dropdown-toggle dropdown-item " data-bs-toggle="dropdown">
+            Móvil
+          </button>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Planes Movil</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Cambiar Plan</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Plan Fácil</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Prepago</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Más Servicios Moviles</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Recarga</a></li>
+          </ul>
+        </div>
+        <!--second Item-->
+        <button type="button" class="btn btn-white dropdown-toggle dropdown-item " data-bs-toggle="dropdown">
+          Hogar
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Revisa tu Factibilidad</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Hogar</a>
+          <li><a class="dropdown-item" href="#">Internet Hogar</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Equipos</a>
+          <li><a class="dropdown-item" href="#">Telefonía</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Accesorios</a>
+          <li><a class="dropdown-item" href="#">Duo Pack</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Beneficios</a>
+          <li><a class="dropdown-item" href="#">Triple Pack</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ayuda</a>
+          <li><a class="dropdown-item" href="#">Fibra Optica</a></li>
+          <li>
+            <hr class="dropdown-divider">
           </li>
+          <li><a class="dropdown-item" href="#">Inalámbrico</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Gaming</a></li>
         </ul>
-      </div>
+        <!--third Item-->
+        <button type="button" class="btn btn-white dropdown-toggle dropdown-item " data-bs-toggle="dropdown">
+          Equipos
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Porta o Contrata Equipo</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Renueva tu Equipo</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Equipo Liberado</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Mi Equipo Protegido</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Un Equipo x Otro</a></li>
+          <li>
+        </ul>
+        <!--Four Item-->
+        <button type="button" class="btn btn-white dropdown-toggle dropdown-item " data-bs-toggle="dropdown">
+          Accesorios
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Audio</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Smartwatch</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Smart Home - Office</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Gaming y entretención</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Mundo Tecnologia</a></li>
+          <li>
+        </ul>
+        <!--Five Item-->
+        <button type="button" class="btn btn-white dropdown-toggle dropdown-item " data-bs-toggle="dropdown">
+          Beneficios
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Club Entel</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Eventos</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Asistencia y Seguros</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Soap</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Entel Visa</a></li>
+          <li>
+        </ul>
+        <!--Sixth item-->
+        <button type="button" class="btn btn-white dropdown-toggle dropdown-item " data-bs-toggle="dropdown">
+          Ayuda
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Centro de Ayuda</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Servicio Técnico</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">#Quedate en Casa</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Tiendas</a></li>
+          <li>
+        </ul>
+        <!--Seven Item-->
+        <button type="button" class="btn btn-white dropdown-toggle dropdown-item " data-bs-toggle="dropdown">
+          Sigue Tu Despacho
+        </button>
+        <ul class="dropdown-menu">
+        </ul>
+
+      
+
+
+      
+
+      </div> 
+    </div>
     </div>
   </nav>
 
