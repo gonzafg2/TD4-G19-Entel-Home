@@ -75,4 +75,19 @@
 .footer-link{
     font-weight: 500;
     font-size: 15px;
+    margin: 0;
 }
+.logo-entel{
+    margin: 0 0 10px 0;
+}
+
+.footer-icon {
+    width: auto;
+    height: 20px;
+}
+
+/*Line to link*/
+  a:hover {
+    border-bottom: 1px solid;
+  }
+  
