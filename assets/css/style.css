@@ -1,54 +1,61 @@
-/*init styles Feasibility banner dev-macosta*/
-.container__box{
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: Barlow, sans-serif;
+}
+/*Mis clases*/
+.container__row-padding{
+    padding: 0 15px;
+}
+.banner__container{
+    display: flex;
+    align-items: center;
+    margin-left: 48px;   
+}
+.banner{
     margin: 16px 0;
     padding: 15px;
     border-radius: 16px;
     background-color: #fff;
-    border: 1px solid rgba(204,204,204,.5);   
-}
-.divleft__txt{
-    color: #212529;
-    font-family: Barlow, sans-serif;
+    border: 1px solid rgba(204,204,204,.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}  
+.banner__container--text{
+    margin: 0 16px;
+    font-size: 20px;
     font-weight: 400;
-    font-size: 16px;
-    margin-left: 20px;
-    text-align: center;
+    color: #292122;
+    text-align: left;
+    line-height: 24px;
+  text-align: center;
 }
-.divleft__img{
-    width: 40px;
-    height: 32px;
-    margin-left: 10px; 
-}
-@media only screen and (max-width: 600px){
-    .divleft__img{
-        margin: 0;
-    }
-    .divleft__txt{
-        margin: 0;
-    }
-}
-.btnblue{
-    color: #ffffff;
-    max-width: 208px;
-    font-family: Barlow, sans-serif;
-    font-size: 14px;
+.banner__container--btn{
     font-weight: 600;
-    background: #002eff;
-    margin: 0 135px;
-    padding: 5px 0;
+    font-size: 16px;
     height: 35px;
-    border-radius: 20px; 
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 40px;
+    background: #002eff;
+    padding: 5px 30px;
+    align-items: center;
     border: solid 1px #002eff;
-    width: 120%;
-    display: block;
-    margin: auto;  
+    padding-bottom: 30px;
+    transition: 0.5s;     
 }
-.btnblue:hover{
-    background: #ffffff;
+.banner__container--btn:hover{
+    background-color: #fff;
     color: #002eff;
 }
-.btnplans{
-    text-align: right;
+.banner__container--img{
+    height: 32px;
+    width: 40px;
 }
 /*end styles Feasibility banner dev-macosta*/
 
@@ -93,8 +100,17 @@ color: #191919;
 line-height: 1.1;
 text-align: center
 }
+@media only screen and (max-width: 600px){
+    .banner{
 
-
+        flex-direction: column;
+    }
+    .banner__container{
+        flex-direction: column;
+    }
+    .banner__container--text{
+        margin: 0;
+}
 
 
 
@@ -168,3 +184,13 @@ text-align: center
 
 
 }
+     
+    }
+    .banner__container--btn{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .banner__container{
+        margin-left: 0;
+    }       
+
