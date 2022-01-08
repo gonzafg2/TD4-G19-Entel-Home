@@ -58,7 +58,7 @@ body * {
     height: 41px;
 }
 
-.section-featured-plans button#pill-mobile.active::before, button#pill-mobile:hover::before {
+.section-featured-plans button#pill-mobile.active::before, .section-featured-plans button#pill-mobile:hover::before {
     content: url(../img/icons/tab-equipos-blanco.png);
     padding-right: 6px;
     }
@@ -68,7 +68,7 @@ body * {
     padding-right: 6px;
     }
 
-.section-featured-plans button#pill-home.active::before, button#pill-home:hover::before {
+.section-featured-plans button#pill-home.active::before, .section-featured-plans button#pill-home:hover::before {
         content: url(../img/icons/tab-hogar-blanco.png);
         padding-right: 6px;
     }
