@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /*init styles Feasibility banner dev-macosta*/
 .container__box {
   margin: 16px 0;
@@ -81,13 +85,22 @@
     margin: 0 0 10px 0;
 }
 
-.footer-icon {
-    width: auto;
-    height: 20px;
-}
 
 /*Line to link*/
-  a:hover {
-    border-bottom: 1px solid;
+  .footer-link:hover {
+     
+    border-bottom: 1px solid red;
   }
   
+  .column-format{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .format-footer{
+      margin: 0 0 0 0;
+  }
+  .primer-line{
+      padding: 0 0 40px 0;
+      
+  }
