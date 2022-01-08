@@ -74,12 +74,8 @@ body{
 border: 1px solid rgba(204,204,204,.5);
 border-radius: 20px;
 height: 75px;
-/* padding: 10px; */
 }
 
-/* .banner_two{
-    border: 1px solid #b40c0c;
-} */
 
 .banner_btn-ancor{
     background-color: blue;
@@ -90,6 +86,7 @@ height: 75px;
     font-weight: 600;
     height: 40px;
     border-radius : 23px;
+    transition: 600ms;
 
 }
 
@@ -189,15 +186,5 @@ text-align: center
         font-size: 20px;
     }
 
-
 }
-     
-    }
-    .banner__container--btn{
-        font-weight: 400;
-        font-size: 14px;
-    }
-    .banner__container{
-        margin-left: 0;
-    }       
-
+}
