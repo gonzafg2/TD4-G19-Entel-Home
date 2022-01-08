@@ -110,7 +110,7 @@
     padding-left: 0;
     padding-right: 2px;
     margin-bottom: 0;
-    list-style: none;
+    list-style: none;    
     /* font-size: 20px; */
 }
 
@@ -121,12 +121,20 @@ a {
     text-decoration: none;
     
 }
+.boton-drop{
+    margin-left: -10px;
+}
 /*Logo entel se achica hasta los 764px*/
 @media (max-width: 764px) {
     .logo-entel {
         width: 38px ;
         height: auto;
     }
+  }
+  .navbar-toggler {
+      display: flex;
+      margin-left: auto;
+     margin-right: 0px;
   }
 
 /*End ccs styles by @kofrann*/

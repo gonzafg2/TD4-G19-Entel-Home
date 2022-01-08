@@ -37,17 +37,17 @@
       </div>
       <!--Dropdown logo entel-->
       <div class="row dropdown">
-        <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown">
+        <button type="button" class="btn btn-white dropdown-toggle boton-drop" data-bs-toggle="dropdown">
           Cambiar a 
           <a class="link-drop" href="http://">Emprendedores y Empresas</a>
         </button>
-        <ul class=" dropdown-menu">
+        <ul class="col-12 dropdown-menu">
           <li><a class="dropdown-item" href="#">Emprendedores y Empresas</a></li>
           <li><a class="dropdown-item" href="#">Corporaciones</a></li>
           <li><a class="dropdown-item" href="#">Sobre Entel</a></li>
         </ul>
       </div>
-      <div class="row">
+      <div class="col">
         <a href="http://">
           <i class="fas fa-search"></i>
         </a>       
@@ -58,8 +58,8 @@
       <!--Fin primer ddropdpwn-->
     <div class="container">
       <div class="row " >
-        <div class="justify-content-end  w-100 align-items-center none-desk">
-          <div class="col pr-0 pl-4 ms-0 ">
+        <div class="col pr-0 pl-4 ms-0 justify-content-end">
+        <div class=" justify-content-end  align-items-center none-desk">
             <ul class="navbar-superior">
               <li>
                 <i class="far fa-user-circle"></i>
@@ -68,18 +68,21 @@
               <li>
                 <i class="fas fa-file-invoice-dollar"></i>
                 <a href="http://">Pagar Cuenta</a>
-              </li>
-            </ul>
+              </li>              
+              <!--Menu HAmburguesa-->
+              <button class=" navbar-toggler " type=" button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon d-sm-none "></span>
+                <p class="d-block d-sm-none mb-0 ">Menu</p>
+              </button>
+            </ul>         
+           
+
           </div>
         </div>
 
-        <!--Menu HAmburguesa-->
-        <button class=" navbar-toggler " type=" button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon d-sm-none "></span>
-        <p class="d-block d-sm-none mb-0 ">Menu</p>
-        </button>
         
       </div>
+      <!--Dropdown principal-->
       <div class="collapse navbar-collapse " id="collapsibleNavbar">
         <!--Inicio DropDown-divider-->
         <div class="dropdown">
@@ -244,9 +247,7 @@
           Sigue Tu Despacho
         </button>
         <ul class="dropdown-menu">
-        </ul>
-
-      
+        </ul>    
 
 
       
