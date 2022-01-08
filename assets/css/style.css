@@ -53,31 +53,32 @@
 /*end styles Feasibility banner dev-macosta*/
 
 .page_two{
+    font-family:  Barlow, sans-serif;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
     height: 50px;
     margin: 5px;
-    border: 1px solid #191919;
+    /* border: 1px solid #191919; */
 
 }
 
 .banner_one{
-border: 1px solid #179240;
+border: 1px solid rgba(204,204,204,.5);
 border-radius: 20px;
-background-color: antiquewhite;
 height: 75px;
 /* padding: 10px; */
 }
 
-.banner_two{
+/* .banner_two{
     border: 1px solid #b40c0c;
-}
+} */
 
 .banner_btn-ancor{
     background-color: blue;
     color: white;
     max-width: 208px;
+    font-family:  Barlow, sans-serif;
     font-size: 16px;
     font-weight: 600;
     height: 40px;
@@ -87,7 +88,7 @@ height: 75px;
 
 .text_banner{
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 color: #191919;
 line-height: 1.1;
 text-align: center
@@ -117,7 +118,7 @@ text-align: center
 
 @media (max-width: 767px) {
     
-    .pagina_dos{
+    .page_two{
         display: block;
         padding-top: 10px;
 
@@ -154,6 +155,15 @@ text-align: center
         color: #002eff;
         border: 1px solid #002eff;
     
+    }
+
+
+}
+
+@media (min-width: 1200px){
+
+    .text_banner{
+        font-size: 20px;
     }
 
 
