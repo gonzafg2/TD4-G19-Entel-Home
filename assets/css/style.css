@@ -93,6 +93,14 @@ height: 75px;
 
 }
 
+.banner_btn-ancor:hover{
+
+    background: #ffffff;
+    color: #002eff;
+    border: 1px solid #002eff;
+
+}
+
 .text_banner{
 font-weight: 400;
 font-size: 16px;
@@ -123,11 +131,10 @@ text-align: center
 
 }
 
-/* .btn_blue:hover{
+  .btn_blue:hover{
     background: #ffffff;
-    color: #002eff; */
-
-
+    color: #002eff; 
+}
 
 
 
