@@ -1,0 +1,23 @@
+{
+  "name": "td4-entel-home",
+  "version": "1.0.0",
+  "description": "### Links de Interés * https://docs.google.com/spreadsheets/d/1GB_IAraUefKXEmr2z8213DlwqoFT0JTMb8WxwnbDqds/edit#gid=0 * https://www.entel.cl/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hosting": "firebase deploy --only hosting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzafg2/TD4-G19-Entel-Home.git"
+  },
+  "author": "TD4-Frontend-G19",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonzafg2/TD4-G19-Entel-Home/issues"
+  },
+  "homepage": "https://github.com/gonzafg2/TD4-G19-Entel-Home#readme",
+  "dependencies": {
+    "firebase": "^9.6.1"
+  }
+}
