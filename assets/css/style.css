@@ -26,6 +26,17 @@ body {
   text-align: center;
 }
 
+/*  init section 5G  banner dev-vfernandez */
+
+.page_two{
+    font-family:  Barlow, sans-serif;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: 5px;
+}
+
 @media only screen and (min-width: 1022px) {
   .border-line {
     border-left: 1px solid #c4c4c4;
@@ -49,6 +60,112 @@ body {
   padding: 30px;
 }
 
+.banner_one{
+border: 1px solid rgba(204,204,204,.5);
+border-radius: 20px;
+height: 75px;
+margin-top: 16px;
+}
+
+/* .banner_two{
+    border: 1px solid #b40c0c;
+} */
+
+.banner_btn-ancor{
+    background-color: blue;
+    color: white;
+    max-width: 208px;
+    font-family:  Barlow, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    border-radius : 23px;
+
+}
+
+.text_banner{
+font-weight: 400;
+font-size: 16px;
+color: #191919;
+line-height: 1.1;
+text-align: center
+}
+
+
+
+
+
+
+.banner_btn-ancor:hover{
+
+    background: #ffffff;
+    color: #002eff;
+    border: 1px solid #002eff;
+
+}
+
+.btn_blue:hover{
+    background: #ffffff;
+    color: #002eff; 
+}
+
+
+
+
+@media (max-width: 767px) {
+    
+    .page_two{
+        display: block;
+        padding-top: 10px;
+
+    }
+
+
+    .banner_one{
+        margin: 3px;
+        padding: 3px;
+
+        height:145px
+    }
+
+
+    .banner_dos-img{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .text_banner{
+        align-items: center;
+    }
+
+
+    .banner_btn-ancor{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .banner_btn-ancor:hover{
+
+        background: #ffffff;
+        color: #002eff;
+        border: 1px solid #002eff;
+    
+    }
+
+
+}
+
+@media (min-width: 1200px){
+
+    .text_banner{
+        font-size: 20px;
+    }
+
+
+}
+
+ /* end section 5G  banner dev-vfernandez */
 .box-accesos-directos {
   content: url(https://www.entel.cl/hn/public/img/iconos/png/sticky-5g.png?v=1.:);
   position: absolute;
