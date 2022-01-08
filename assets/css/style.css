@@ -1,6 +1,85 @@
-body {
-  font-family: barlow;
+
+/*init styles Feasibility banner dev-macosta*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: Barlow, sans-serif;
 }
+/*Mis clases*/
+.container__row-padding{
+    padding: 0 15px;
+}
+.banner__container{
+    display: flex;
+    align-items: center;
+    margin-left: 48px;   
+}
+.banner{
+    margin: 16px 0;
+    padding: 15px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: 1px solid rgba(204,204,204,.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}  
+.banner__container--text{
+    margin: 0 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #292122;
+    text-align: left;
+    line-height: 24px;
+  text-align: center;
+}
+.banner__container--btn{
+    font-weight: 600;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 40px;
+    background: #002eff;
+    padding: 5px 30px;
+    align-items: center;
+    border: solid 1px #002eff;
+    padding-bottom: 30px;
+    transition: 0.5s;     
+}
+.banner__container--btn:hover{
+    background-color: #fff;
+    color: #002eff;
+}
+.banner__container--img{
+    height: 32px;
+    width: 40px;
+}
+@media only screen and (max-width: 600px){
+    .banner{
+
+        flex-direction: column;
+    }
+    .banner__container{
+        flex-direction: column;
+    }
+    .banner__container--text{
+        margin: 0;
+
+        font-size: 15px; 
+    }
+    .banner__container--btn{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .banner__container{
+        margin-left: 0;
+    }       
+
 .title-loquebuscas {
   font-style: normal;
   font-weight: 400;
@@ -93,4 +172,5 @@ body {
   #recarga {
     width: auto;
   }
+}
 }
