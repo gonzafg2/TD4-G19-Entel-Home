@@ -52,6 +52,9 @@
 }
 /*end styles Feasibility banner dev-macosta*/
 
+ 
+/*  init section 5G  banner dev-vfernandez */
+
 .page_two{
     font-family:  Barlow, sans-serif;
     display: inline-flex;
@@ -59,7 +62,7 @@
     align-items: center;
     height: 50px;
     margin: 5px;
-    /* border: 1px solid #191919; */
+
 
 }
 
@@ -67,7 +70,6 @@
 border: 1px solid rgba(204,204,204,.5);
 border-radius: 20px;
 height: 75px;
-/* padding: 10px; */
 }
 
 /* .banner_two{
@@ -107,11 +109,10 @@ text-align: center
 
 }
 
-/* .btn_blue:hover{
+.btn_blue:hover{
     background: #ffffff;
-    color: #002eff; */
-
-
+    color: #002eff; 
+}
 
 
 
@@ -168,3 +169,5 @@ text-align: center
 
 
 }
+
+ /* end section 5G  banner dev-vfernandez */
