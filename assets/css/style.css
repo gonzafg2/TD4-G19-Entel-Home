@@ -89,7 +89,7 @@
 /*Line to link*/
   .footer-link:hover {
      
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid;
   }
   
   .column-format{
