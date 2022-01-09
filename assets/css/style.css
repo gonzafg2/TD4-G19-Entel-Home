@@ -1,0 +1,82 @@
+body {
+    font-family: Barlow;
+}
+
+.estamos-para-ti{
+    margin: 50px auto;
+    max-width: 992px;
+}
+
+.card-estamos-para-ti {
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    max-width: 350px;
+    min-height: 230px;    /* Altura de la card */
+}
+
+.card-estamos-para-ti--azul {
+    background: #c4d9f6;
+    border:0px;
+}
+
+.altura1 { 
+    line-height: 24px ; 
+    height: 24px;
+}
+.altura2 { 
+    line-height: 24px ; 
+    height: 91px;
+}
+.altura3 { 
+    height: 40px; 
+}
+
+
+.card-titulo {
+    background-color: #a4f2d9;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 208px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.card-titulo--pink {
+    background-color: #FFE2EB;
+}
+
+.card-titulo--blue {
+    background-color: #748EFE ;
+}
+
+.card-text-normal {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size:16px;
+    margin:16px auto;
+}
+
+.card-text-normal--small {
+    font-size:12px;
+}
+
+.card-text-footer {
+    text-align:center;
+}
+
+.btn-card-footer {   
+    text-align: center;  
+    width: 210px;
+    font-style: normal;
+    border-radius: 28px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-card-footer:hover {
+    border: 1px solid #002eff;
+    color: #002eff;
+    background-color: #fff;
+}
+
