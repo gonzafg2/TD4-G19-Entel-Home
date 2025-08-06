@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/gonzafg2/TD4-G19-Entel-Home#readme",
   "dependencies": {
-    "firebase": "^9.6.1"
+    "firebase": "^10.9.0"
   }
 }
